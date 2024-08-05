@@ -1,0 +1,103 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.admin-header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.admin-nav {
+    background-color: #444;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 4rem;
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    z-index: 1000;
+}
+
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.admin-nav ul li {
+    margin: 0 1rem;
+}
+
+.admin-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.admin-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.admin-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.admin-section {
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 2px solid #0a0a0a;
+    width: 80%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.admin-section h2 {
+    margin-top: 0;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #0e0e0f;
+    padding: 8px;
+    text-align: left;
+}
+
+.admin-table th {
+    background-color: #f2f2f2;
+}
+
+.reports-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.report {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 45%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+

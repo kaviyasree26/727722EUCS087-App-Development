@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 40px; /* Space between navigation bar and apply-page */
+}
+
+.apply-page {
+  max-width: 500px; /* Further reduced max-width */
+  margin: 60px auto; /* Increased space above and below the form */
+  padding: 20px; /* Adjusted padding for more space inside */
+  background: #8bdeed;
+  border-radius: 8px; /* Reduced border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  position: relative; /* Ensure it's positioned correctly */
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+.apply-page h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Reduced margin below heading */
+  color: #020202;
+  font-size: 20px; /* Adjusted font size */
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Reduced space between form groups */
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px; /* Reduced margin below label */
+  color: #080808;
+  font-size: 14px; /* Reduced font size */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  border: 1px solid #ddd;
+  border-radius: 4px; /* Reduced border radius */
+  font-size: 12px; /* Reduced font size */
+  color: #040404;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #888;
+}
+
+.form-group input[type="file"] {
+  padding: 0;
+  border: none;
+  background: #f9f9f9;
+}
+
+.submit-button {
+  padding: 8px; /* Reduced padding */
+  border: none;
+  border-radius: 4px; /* Reduced border radius */
+  background: #007bff;
+  color: #fff;
+  font-size: 14px; /* Reduced font size */
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-align: center;
+  margin-top: 15px; /* Reduced margin above the button */
+}
+
+.submit-button:hover {
+  background: #0056b3;
+}
+
+.submission-message {
+  margin-top: 15px; /* Reduced margin above message */
+  text-align: center;
+  color: #28a745;
+  font-size: 14px; /* Reduced font size */
+}
